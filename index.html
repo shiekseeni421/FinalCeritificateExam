@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login-Admin Panel</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <div class="Topbar">
+            <div class="subBar">
+                <img src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png" alt="Logo" class="Log" />
+                <p class="Log_text">Kafene</p>
+                <nav>
+                    <a class="navItem"   id="Orders" href="./order.html">Orders</a>
+                    <a class="navItem"   id="Products" href="./product.html">Products</a>
+                    <a class="navItem"   id="Users" href="./user.html">Users</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="Main">
+            <form class="from_el">
+                <h1>
+                    Sign In
+                </h1>
+                <input class="input_el" id="userInput" type="text" placeholder="Enter Username" name="user name" required/>
+                <input class="input_el" id="passwordInput" type="password" placeholder="Enter Password" name="user name" required/>
+                <input class="button_sub" id="loginbutton" type="submit" value="Login"/>
+            </form>
+
+            <p style="color: red; text-align: center;">* User Name and Password Must be same</p>
+        </div>
+
+        
+    </div>
+
+
+</body>
+<script src="./index.js"></script>
+
+</html>

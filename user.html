@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>User-Admin Panel</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./user.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <div class="Topbar">
+            <div class="subBar">
+                <img src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png" alt="Logo" class="Log" />
+                <p class="Log_text">Kafene</p>
+                <nav>
+                    <a class="navItem"   id="Orders" href="./order.html">Orders</a>
+                    <a class="navItem"   id="Products" href="./product.html">Products</a>
+                    <a class="navItem colorapply"   id="Users" href="#">Users</a>
+                </nav>
+            </div>
+            <div>
+                <a id="logout" class="navItem"  href="#">Logout</a>
+            </div>
+        </div>
+        <div class="mar-top">
+            <div class="mainTable">
+                <h1>user</h1>
+                <form class="fromel">
+                    <input class="UserList_SearchBox" id="searchInput" type="search" placeholder="Search by Name" />
+                    <input id='reseEl' type="reset" class="UserList_Button" value="Reset">
+                </form>
+                <div class="sub_con">
+                    <div style="width: 100%;">
+                        <table class="UserList_OrderTable">
+                            <tr>
+                                <th>ID</th>
+                                <th>User Avatar</th>
+                                <th>Full Name</th>
+                                <th style="min-width: 100px;">DoB</th>
+                                <th>Gender</th>
+                                <th>Current Location</th>
+                            </tr>
+                            <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33"
+                                    r="30"></circle>
+                            </svg>
+                            <tbody id="talbleRoot">
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="./user.js"></script>
+
+
+</html>

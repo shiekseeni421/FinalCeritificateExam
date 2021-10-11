@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.Topbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.UserList_OrderTable{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+}
+
+table{
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+
+.mainTable{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8% 4%;
+
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+.sub_con{
+    width: 100%;
+    padding: 24px 0;
+}
+
+.mar-top{
+    margin-top: 110px;
+}
+
+table > tr {
+    vertical-align: middle;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+.fromel{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+
+.UserList_SearchBox{
+    width: calc(100% - 100px);
+    padding: 12px 24px;
+    font-size: 15px;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin: 0 36px 0 0;
+    outline: none;
+}
+
+.UserList_Button{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 14px 36px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #20b883;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.tbodttr{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tbodttr td{
+    background-color:cadetblue;
+    border-bottom: 4px solid #f6f7fb;
+}
+
+
+.UserList_SecondaryText {
+    color: rgb(2, 16, 77);
+    
+}
+
+.UserList_PrimaryText{
+    color: rgba(0,0,0,.8);
+    font-weight: 500;
+}
+
+.UserList_OrderTable td, .UserList_OrderTable th {
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+
+
